@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.example-body {
+  padding: 10px;
+  padding-top: 0;
+}
+.custom-image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  font-size: 14px;
+  color: #333;
+}
+

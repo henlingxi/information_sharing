@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.scrollView.data-v-92bb8f34 {
+  height: 100rpx;
+  white-space: nowrap;
+}
+.scrollView .view.data-v-92bb8f34 {
+  font-size: 40rpx;
+  height: 80rpx;
+  display: inline-block;
+  line-height: 80rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+  margin: 0 5rpx;
+  color: #707070;
+}
+

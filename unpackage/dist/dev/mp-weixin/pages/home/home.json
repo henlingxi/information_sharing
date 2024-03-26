@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "home-swipre-part": "/components/HomeSwiprePart/HomeSwiprePart",
+    "article-list-item": "/components/ArticleListItem/ArticleListItem"
+  }
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.article {
+  min-height: 500rpx;
+}
+.title {
+  font-size: 30rpx;
+  font-weight: 800;
+  margin-bottom: 40rpx;
+}
+

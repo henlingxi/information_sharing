@@ -1,0 +1,1 @@
+<view><uni-card vue-id="e5f9c040-1" bind:__l="__l" vue-slots="{{['default']}}"><view>注销用户</view><button data-event-opts="{{[['tap',[['goodbye',['$event']]]]]}}" bindtap="__e">确认注销</button></uni-card><block wx:if="{{show}}"><uni-card vue-id="e5f9c040-2" bind:__l="__l" vue-slots="{{['default']}}"><view class="message">想注销?不可能</view></uni-card></block></view>

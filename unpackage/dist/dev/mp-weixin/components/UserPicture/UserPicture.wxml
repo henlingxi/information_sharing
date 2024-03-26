@@ -1,0 +1,1 @@
+<view><uni-section vue-id="0e466e5a-1" title bind:__l="__l" vue-slots="{{['default']}}"><view data-event-opts="{{[['tap',[['ChangePhoto',['$event']]]]]}}" class="example-body " bindtap="__e"><image src="{{url}}"></image>{{''+message+''}}</view></uni-section></view>

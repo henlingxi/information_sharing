@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-fav": "/uni_modules/uni-fav/components/uni-fav/uni-fav"
+  },
+  "component": true
+}

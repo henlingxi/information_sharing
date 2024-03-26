@@ -1,0 +1,1 @@
+<view><article-list-item vue-id="32c8b92a-1" articles="{{articles}}" bind:__l="__l"></article-list-item><block wx:if="{{!length}}"><view style="text-align:center;margin-top:200rpx;"><view style="margin:100rpx;">还没有喜欢的文章，快去添加吧</view><image style="height:100rpx;width:100rpx;" src="../../static/images/writing.png"></image></view></block></view>

@@ -1,0 +1,171 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	}    ,{
+            "path" : "pages/center/center",
+			"meta": {
+				"auth": false, //需要登录
+				"async": true //是否同步
+			},
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/login/login",
+			"meta": {
+				"auth": false, //需要登录
+				"async": true //是否同步
+				// "title": "首页", //标题
+				// "group": "商城" //分组
+			},
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "log in",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userInfo/userInfo",
+			"name": "userInfo",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true //是否同步
+			},
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/write/write",
+			"name":"write",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true //是否同步
+			},
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创作",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/writeManage/writeManage",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true //是否同步
+			},
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/settings/settings",
+			"meta": {
+				"auth": true, //需要登录
+				"async": true //是否同步
+			},
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/articleShowMore/articleShowMore",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/writeManageEdit/writeManageEdit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章编辑",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/daily/daily",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "每日任务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sketch/sketch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "草稿箱",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "#707070",
+		"selectedColor": "707070",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "home",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/home-fill.png"
+			},
+			{
+				"pagePath": "pages/write/write",
+				"text": "write",
+				"iconPath": "static/images/tabbar/goods.png",
+				"selectedIconPath": "static/images/tabbar/goods-fill.png"
+				
+			},
+			{
+				"pagePath": "pages/center/center",
+				"text": "center",
+				"iconPath": "static/images/tabbar/customer.png",
+				"selectedIconPath": "static/images/tabbar/customer-fill.png"
+			}
+		]
+	}
+}

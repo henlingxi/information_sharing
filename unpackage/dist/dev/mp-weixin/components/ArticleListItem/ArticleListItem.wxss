@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.content {
+  height: 85px;
+  overflow: hidden;
+  display: -webkit-box;
+  margin: 20px;
+  font-size: 15px;
+  line-height: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}
+

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/center/center",
+    "pages/login/login",
+    "pages/userInfo/userInfo",
+    "pages/write/write",
+    "pages/writeManage/writeManage",
+    "pages/settings/settings",
+    "pages/articleShowMore/articleShowMore",
+    "pages/writeManageEdit/writeManageEdit",
+    "pages/collect/collect",
+    "pages/daily/daily",
+    "pages/sketch/sketch"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#707070",
+    "selectedColor": "#707070",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home-fill.png"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "text": "write",
+        "iconPath": "static/images/tabbar/goods.png",
+        "selectedIconPath": "static/images/tabbar/goods-fill.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "center",
+        "iconPath": "static/images/tabbar/customer.png",
+        "selectedIconPath": "static/images/tabbar/customer-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

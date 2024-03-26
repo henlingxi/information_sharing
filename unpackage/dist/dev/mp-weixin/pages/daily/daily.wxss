@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.example-body {
+  display: flex;
+  flex-direction: row;
+}
+.calendar-button {
+  flex: 1;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
